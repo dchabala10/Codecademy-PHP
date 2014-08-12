@@ -1,0 +1,24 @@
+<?php
+          class Cat{
+              
+              public $isAlive = true;
+              public $numLegs = 4;
+              public $name;
+              
+              $name = new Cat($name);
+              
+              public function __constructor(){
+                  $this->name = $name;
+              }
+              
+              public function meow(){
+                  return "Meow meow";
+              }
+              
+          }
+          
+          $name = new Cat("CodeCat");
+          echo $name->meow();
+          
+          
+        ?>
